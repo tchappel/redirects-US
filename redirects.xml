@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cml:content xmlns:cml="http://www.example.com/2004/content"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../build/config/redirects.xsd">
+  <cml:country name="us" directory="html/html00">
+    <cml:redirect-to-html old-url="example1/index.html" new-url="\${SHOMEPATH}example/new-1" />
+    <cml:redirect-to-html old-url="example2/index.html" new-url="https://www.example.com/new-url" />
+    <cml:redirect-to-html old-url="example3/index.html" new-url="\${SHOMEPATH}example/new-3/" />
+    <cml:redirect-to-html old-url="example4/index.html" new-url="\${SHTMLPATH}example-123/" />
+    <cml:redirect-to-html old-url="example5/index.html" new-url="\${SHTMLPATH}example-456/index_app.html" />
+    <cml:redirect-to-html old-url="example6/index.html" new-url="\${SHOMEPATH}example/new-6" />
+    <cml:redirect-to-html old-url="example7/index.html" new-url="\${SHOMEPATH}example/new-7" />
+    <cml:redirect-to-html old-url="example8/index.html" new-url="\${SHTMLPATH}example-789/" />
+    <cml:redirect-to-html old-url="example9/index.html" new-url="\${SHTMLPATH}example-999/index_app.html" />
+    <cml:redirect-to-html old-url="example10/index.html" new-url="\${SHOMEPATH}example/new-10/" />
+    <cml:redirect-to-html old-url="example11/index.html" new-url="\${SHOMEPATH}example/new-11" />
+    <cml:redirect-to-html old-url="example12/index.html" new-url="\${SHOMEPATH}example/new-12" />
+    <cml:redirect-to-html old-url="example13/index.html" new-url="\${SHOMEPATH}example/new-13/" />
+    <cml:redirect-to-html old-url="example14/index.html" new-url="\${SHTMLPATH}example-abc/" />
+    <cml:redirect-to-html old-url="example15/index.html" new-url="\${SHTMLPATH}example-def/index_app.html" />
+    <cml:redirect-to-html old-url="example16/index.html" new-url="\${SHOMEPATH}example/new-16" />
+    <cml:redirect-to-html old-url="example17/index.html" new-url="\${SHOMEPATH}example/new-17" />
+    <cml:redirect-to-html old-url="example18/index.html" new-url="\${SHTMLPATH}example-xyz/" />
+    <cml:redirect-to-html old-url="example19/index.html" new-url="\${SHTMLPATH}example-123/index_app.html" />
+    <cml:redirect-to-html old-url="example20/index.html" new-url="\${SHOMEPATH}example/new-20/" />
+  </cml:country>
+</cml:content>
